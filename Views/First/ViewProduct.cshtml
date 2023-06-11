@@ -1,0 +1,14 @@
+@model CS68.Models.ProductModel;
+
+@* @{
+    Layout = "_Layout";
+} *@
+
+<div class="card bg-danger text-while">
+  @* <img src="..." class="card-img-top" alt="..."> *@
+  <div class="card-body">
+    <h5 class="card-title">@Model.Name</h5>
+    <p class="card-text">Giá: @Model.Price</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>

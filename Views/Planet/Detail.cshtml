@@ -1,0 +1,12 @@
+@model CS68.Models.PlanetModel
+
+<h1>@Model.Name</h1>
+
+<div class="card">
+  <img src="~/planet/@(Model.Name).jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">@Model.VnName</h5>
+    <p class="card-text">@Model.Content</p>
+    <a asp-action="Index" class="btn btn-primary card-link">Hành tinh khác</a>
+  </div>
+</div>
